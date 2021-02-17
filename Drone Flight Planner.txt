@@ -1,0 +1,11 @@
+Drone Flight Planner
+
+array route = [0, 5, 10],
+	[2, 6, 10],
+	[4, 12, 20]
+
+if the drone started from 0 then burns 1kwh durng the flight of the drone, the kwh increments every mile it travels until it descends which will now decrement the kwh until it lands and no more energy is used.
+
+
+I think it's Big-O(N) because it goes through every number in the array until the drone lands.
+
