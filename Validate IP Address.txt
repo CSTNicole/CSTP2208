@@ -1,0 +1,20 @@
+form = "x.x.x.x"
+
+if (a > 3)
+	return false;
+
+foreach (int j =0, j < a; j++)
+//if length is less than 0 and if length is greater than 9 
+//return false
+if ((length[j] >= 0 && lenght[j] <=9) == false)
+	return false;
+
+if (x >= 0 && x <= 255)
+	return true;
+
+Console.WriteLine("Enter IP Address:");
+string ipaddress = Console.ReadLine();
+if (ValidateIP)
+	Console.WriteLine("Valid IP Address");
+else
+	Console.WriteLine("Not Valid IP Address");
