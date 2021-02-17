@@ -1,0 +1,23 @@
+go through the string a char at a time
+if the char is '(' increment the bracket count (cnt)
+otherwise if char is ')' decrenment the bracket count 
+
+if (char1 == "(" && char2 == ")")
+	return true;
+else
+	return false;
+
+for (int a = 0; a < b.length; a++)
+{
+	if (b[a] == "(")
+	Push(b[a]);
+
+	if (b[a] == ")")
+	Push(b[a])
+}
+
+when there are equal brackets, opening then closing (eg. "(())"); return true
+if all brackets are opening, no closing ; return false
+if all brackets are closing, no opening ; return false
+if there are unequal brackets (eg. ")))((") ; return false
+
